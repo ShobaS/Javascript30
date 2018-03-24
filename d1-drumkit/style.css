@@ -1,0 +1,37 @@
+body{
+  background-color: grey;
+}
+.keys{
+  text-align: center;
+  margin-top:200px;
+}
+.key{
+  display: inline-block;
+}
+kbd{
+  display: block;
+  font-size: 26px;
+}
+.sound{
+  font-size: 12px;
+  letter-spacing: 1px;
+  color:#ffc600;
+}
+.playing{
+  transform :scale(1.1);
+  border:2px solid #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+.key{
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin:10px;
+  font-size: 16px;
+  padding: 10px 4px;
+  transition:all 0.07s;
+  width:100px;
+  text-align: center;
+  color:white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 1px black;
+}
