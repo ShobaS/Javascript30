@@ -1,0 +1,30 @@
+:root{
+  --white : #fff;
+  --black : #333;
+}
+body{
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.clock{
+  border: 4px solid var(--white);
+  width: 200px;
+  height: 200px;
+  border-radius: 104px;
+  margin:auto;
+  margin-top:200px;
+}
+.clock-face{
+  position: relative;
+  width:100%;
+  height:100%;
+  transform: translateY(-3px);
+}
+.hand{
+  width: 50%;
+  height: 3px;
+  background-color: var(--black);
+  position: absolute;
+  top:50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
