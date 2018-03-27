@@ -1,0 +1,42 @@
+:root{
+  --white: #ffffff;
+  --black: #333333;
+  --primaryclr: #ffc600;
+}
+html{
+  background: #ffc600;
+}
+body{
+  margin:0;
+  text-align: center;
+}
+.search{
+  background: var(--white);
+  border:none;
+  padding:16px;
+  font-size:24px;
+  text-align: center;
+  border-radius: 4px;
+}
+.search:focus{
+  outline: none;
+}
+ul{
+  list-style: none;
+  padding:0;
+  width:230px;
+  background: var(--white);
+  margin:auto;
+  border-radius: 6px;
+}
+ul li:first-child{
+  padding-top:10px;
+}
+li{
+  padding:0 0 10px;
+  margin-top:8px;
+  border-bottom:1px solid grey;
+}
+ul li:last-child{
+  border-bottom: none;
+}
