@@ -1,10 +1,10 @@
 :root{
   --white: #ffffff;
   --black: #333333;
-  --primaryclr: #ffc600;
+  --primaryclr: #90ee90;
 }
 html{
-  background: #ffc600;
+  background: var(--primaryclr);
 }
 body{
   margin:0;
