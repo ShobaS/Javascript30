@@ -1,0 +1,28 @@
+:root {
+  --bgcolor: lightgreen;
+}
+html, body {
+  margin:0;
+}
+body {
+  background-color: var(--bgcolor);
+  text-align: center;
+  margin-top: 60px;
+}
+.inbox {
+  border: 1px solid black;
+  display: inline-block;
+  text-align: left;
+}
+p {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px 0 12px;
+}
+.item {
+  border-bottom: 1px solid black;
+  padding: 10px 10px;
+}
+.item:last-child {
+  border-bottom: none;
+}
